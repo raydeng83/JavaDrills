@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24b23cd7-73a8-4b19-9b6b-317afa9e9261" name="Default" comment="" />
+    <list default="true" id="24b23cd7-73a8-4b19-9b6b-317afa9e9261" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/primitives/PristineMultiplication.java" afterPath="$PROJECT_DIR$/src/primitives/PristineMultiplication.java" />
+    </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,8 +68,8 @@
       <file leaf-file-name="PristineMultiplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/primitives/PristineMultiplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5400943">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5754717">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -793,7 +795,7 @@
       <workItem from="1470326092166" duration="1506000" />
       <workItem from="1470945458773" duration="3737000" />
       <workItem from="1471100220152" duration="433000" />
-      <workItem from="1471115397728" duration="565000" />
+      <workItem from="1471115397728" duration="2590000" />
     </task>
     <servers />
   </component>
@@ -806,7 +808,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39367000" />
+    <option name="totallyTimeSpent" value="41392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1563" y="73" width="1433" height="850" extended-state="0" />
@@ -1103,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/primitives/PristineMultiplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5400943">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.5754717">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>

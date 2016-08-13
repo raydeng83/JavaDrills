@@ -10,7 +10,8 @@ public class PristineMultiplication {
     public static void main(String[] args) {
         int x = 0b1101;
         int y = 0b101;
-        System.out.println(smartMultiply(x, y));
+        System.out.println(smartAdd(x, y));
+
     }
 
     public static int smartMultiply(int x, int y) {
@@ -25,5 +26,27 @@ public class PristineMultiplication {
         }
 
         return result;
+    }
+
+    public static int smartAdd(int a, int b) {
+        int sum=0, carryin=0, k=1, tempA=a, tempB=b;
+        while(tempA != 0 || tempB != 0) {
+            int ak= a&k, bk=b&k;
+            int carryout = (ak&bk)|(ak&carryin)|(bk&carryin);
+            sum|=(ak^bk^carryin);
+            carryin=carryout<<1;
+            k<<=1;
+            tempA>>>=1;
+            tempB>>>=1;
+            System.out.println(
+                    "tempA is "+Integer.toBinaryString(tempA)+
+                            ", tempB is "+Integer.toBinaryString(tempB)+
+                            ", sum is "+Integer.toBinaryString(sum)+
+                            ", carryin is "+Integer.toBinaryString(carryin)+
+                            ", carryout is "+Integer.toBinaryString(carryout)
+            );
+        }
+
+        return sum | carryin;
     }
 }
